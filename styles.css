@@ -1,0 +1,86 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f7fc;
+}
+
+.container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.left, .right {
+  flex: 1;
+  padding: 2rem;
+}
+
+.left {
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.right {
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 3rem;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #001e5f;
+  margin-bottom: 2rem;
+}
+
+.download-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.download-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f0f4fb;
+  border-radius: 12px;
+  padding: 1rem 1.5rem;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
+  transition: all 0.2s ease;
+}
+
+.download-card:hover {
+  background-color: #e8f0fe;
+  transform: translateY(-2px);
+}
+
+.file-info strong {
+  display: block;
+  color: #001e5f;
+  font-size: 1rem;
+}
+
+.file-info span {
+  font-size: 0.85rem;
+  color: #666;
+}
+
+.download-btn {
+  text-decoration: none;
+  color: white;
+  background-color: #007bff;
+  padding: 0.4rem 1rem;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 0.9rem;
+  transition: background 0.2s ease;
+}
+
+.download-btn:hover {
+  background-color: #0056b3;
+}
